@@ -1,14 +1,14 @@
-# Weather Dashboard
+# Professional Portfolio II
 ## Description
 
-This weather dashboard allows you to find a 5-day forecast for any city without being bombarded with ads! You can also search previously entered locations with ease by pressing on the recently searched buttons.
+This is my second take on a professional profile. In this one, I try to expand on and iterate off the spirit of my [first portfolio](https://argibson02.github.io/Professional-Portfolio/) while integrating the new technical skills that I have learned. 
 
-[Click this link to forsee the weather!](https://argibson02.github.io/Weather-Dashboard/)
+[Click this link to my profile!](https://argibson02.github.io/Professional-Portfolio-2/)
  <br />
 
-**Demo of the weather dashboard in action!**
+**Demo of the webpage in action!**
 
-![Demo of the weather dashboard in action](https://github.com/argibson02/Weather-Dashboard/blob/main/images/demo-weather.gif?raw=true)
+![Demo of the webpage in action]()
 
 
 
@@ -21,8 +21,7 @@ Any modern internet browser will do!
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [jQuery](https://api.jquery.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [OpenWeather APIs](https://openweathermap.org/api) 
+* [Materialize](https://materializecss.com/)
 
 
 ## Technologies Used
@@ -42,7 +41,7 @@ Any modern internet browser will do!
 
 ## Deployed Link
 
-* [See the Live Site!](https://argibson02.github.io/Weather-Dashboard/)
+* [See the Live Site!](https://argibson02.github.io/Professional-Portfolio-2/)
 
 ## Authors
 
@@ -56,3 +55,5 @@ Any modern internet browser will do!
 
 - Thanks to Jerome, Manuel, Cheng, and Daniel for instructing the UCB Coding Bootcamp.
 - Thanks to Eric Meyer for the [CSS reset file](https://meyerweb.com/eric/tools/css/reset/).
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
