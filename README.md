@@ -47,7 +47,7 @@ Any modern internet browser will do!
 
 **Alexander Gibson** 
 
-- [Link to Alex's Portfolio Site](https://argibson02.github.io/)
+- [Link to Alex's Portfolio Site](https://argibson02.github.io/Professional-Portfolio-2/)
 - [Link to Alex's Github](https://github.com/argibson02)
 - [Link to Alex's LinkedIn](www.linkedin.com/in/alexander-gibson-1b0bb6105)
 
