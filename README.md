@@ -3,7 +3,7 @@
 
 This is my second take on a professional profile. In this one, I try to expand on and iterate off the spirit of my [first portfolio](https://argibson02.github.io/Professional-Portfolio/) while integrating the new technical skills that I have learned. 
 
-[Click this link to my profile!](https://argibson02.github.io/Professional-Portfolio-2/)
+[Click this link to see Professional Portfolio II!](https://argibson02.github.io/Professional-Portfolio-2/)
  <br />
 
 **Demo of the webpage in action!**
