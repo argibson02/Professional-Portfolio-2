@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alex Gibson - Profile</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,84 +12,180 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Voltaire&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="icon" type="image/png" href="./images/ag-icon.png" sizes="16x16" alt="Icon">
-  <link rel="icon" type="image/png" href="./images/ag-icon.png" sizes="32x32" alt="Icon">
-  <title>Alex Gibson - Profile</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
-  <header>
-
-    <div class="brand-logo" id="header-title">
-      <h1>ALEXANDER - GIBSON</h1>
-    </div>
-  </header>
-  <nav class="nav-wrapper">
-    <div id="header-menu">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul id="header-menu-links" class="right hide-on-med-and-down sidenav-trigger">
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">FEATURED WORKS</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">CONTACT & RÉSUMÉ</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <ul class="sidenav" id="mobile-demo">
+  <nav class="mucha-nav" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">ALEXANDER GIBSON</a>
+      <ul class="right hide-on-med-and-down">
         <li><a href="">ABOUT</a></li>
-        <li><a href="">FEATURED WORKS</a></li>
         <li><a href="">PROJECTS</a></li>
         <li><a href="">CONTACT & RÉSUMÉ</a></li>
       </ul>
 
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">PROJECTS</a></li>
+        <li><a href="">CONTACT & RÉSUMÉ</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
 
-  <main>
-    <section class="row" id= >
-
-      <div class="mucha-container col s12">
-        <div class="col s4" id="headshot">
-          <img src="./images/Alex-Gibson-Headshot-Mucha-filter.jpeg" alt="Professional headshot of Alex Gibson.">
-        </div>
-        <article class="col s8" id="description">
-          <p>Hi! My name is Alex Gibson, and welcome to my webpage! For the past five years, I have been working in
-            software Quality Assurance and have decided to make the shift from testing code, to actually writing it.
-
-            I am currently training to become a full-stack developer at the University of California - Berkeley
-            Extension
-            and hope to graduate in December 2021 with a Certificate of Course Completion.
-            <br />
-            <br />
-            I am an experienced Quality Assurance Analyst with a demonstrated history of success in the electronic
-            medical
-            records and software industry.
-
-            I have worn many hats in my role and have done things including: managing software development projects and
-            quality, implementing process improvements, championing accessibility and internationalization testing, and
-            advocating for the end-user experience.
-        </article>
       </div>
-    </section>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
 
-  </main>
-  <footer>
 
+  <div class="container">
+    <div class="section" id="about">
+
+      <!--   Description Section   -->
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>ABOUT</h4>
+          <article id="description">
+            <p>My name is Alex Gibson, and welcome to my webpage! For the past five years, I have been working in
+              software Quality Assurance and have decided to make the shift from testing code, to actually writing it.
+
+              I am currently training to become a full-stack developer at the University of California - Berkeley
+              Extension and hope to graduate in December 2021 with a Certificate of Course Completion.
+              <br />
+              <br />
+              I am an experienced Quality Assurance Analyst with a demonstrated history of success in the electronic
+              medical records and software industry.
+
+              I have worn many hats in my role and have done things including: managing software development projects
+              and quality, implementing process improvements, championing accessibility and internationalization
+              testing, and advocating for the end-user experience.
+          </article>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section" id="projects">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id
+            nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies
+            eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et
+            pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed.
+            Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam
+            eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id
+            nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies
+            eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et
+            pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed.
+            Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam
+            eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our
+            full time job. Any amount would help support and continue development on this project and is greatly
+            appreciated.</p>
+
+
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      </div>
+    </div>
   </footer>
 
-  <!-- Compiled and minified JavaScript -->
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="./assets/js/script.js"></script>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
 </body>
 
 </html>
