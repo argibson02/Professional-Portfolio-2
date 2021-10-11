@@ -36,67 +36,6 @@
   --muchaBlack: #4B512E;
 }
 
-
-nav ul a, nav .brand-logo {
-  color: var(----muchaMonaco);
-}
-
-p {
-  line-height: 2rem;
-}
-
-.sidenav-trigger {
-  color: var(--muchaMonaco);
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-
-
-
-
-/*
-font-family: 'Bebas Neue', cursive;
-font-family: 'Righteous', cursive;
-font-family: 'Voltaire', sans-serif;
-*/
-
-
 header {
   font-family: 'Voltaire', sans-serif;
   font-size: 100px;
@@ -110,9 +49,6 @@ header {
   background-size: cover;
 }
 
-
-
-
 #brand-logo {
   box-shadow:  1px 1px 4px 4px var(--muchaDarkBrown);
   /*border: 4px solid var(--muchaDarkBrown);*/
@@ -122,6 +58,9 @@ header {
   color: var(--muchaMonaco);
   -webkit-text-stroke: 1.5px var(--muchaBlack); /*text border*/
   background-color: var(--muchaNavBrown);
+}
+nav ul a, nav .brand-logo {
+  color: var(----muchaMonaco);
 }
 
 nav {
@@ -145,9 +84,6 @@ li {
   border-radius: 10px;
 }
 
-
-
-
 li a {
   font-size: 20px;
   letter-spacing: 5px;
@@ -157,16 +93,11 @@ li a {
   font-size: 18px;
 }
 
-
 .mucha-nav {
   background-image: url(./images/gismonda-print.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-
-
-
 
 ul > li:hover {
   text-shadow: 0px 6px 0px var(--muchaLightGreen), 0px -6px 0px var(--muchaDarkGreen);
@@ -179,13 +110,26 @@ li a:hover {
 }
 
 
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: var(--muchaMonaco);
+}
+
+.cigar {
+  background-image: url(./images/job-cigarettes-border-v.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 body {
   background: var(--muchaPaper);
   font-family: sans-serif
   
 }
-
-
 
 .mucha-container {
   background-color: var(--muchaNavBrown);
@@ -198,6 +142,72 @@ article {
   font-family: 'helvetica';
   color: var(--muchaBlack);
 }
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+
+  #index-banner {
+    min-height: 100px;
+  }
+  
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width : 536px) {
+  #logo-container {
+    width: 150px;
+    display: contents;
+    font-size: 28px;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.mucha {
+  background-color: var(--muchaNavBrown);
+  box-shadow:  0px 0px 4px 1px var(--muchaDarkBrown);
+}
+
+
+
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Voltaire', sans-serif;
+*/
+
 
 
 
