@@ -8,9 +8,12 @@
 
  * {
   font-size: 16px;
+  font-family: 'Voltaire', sans-serif;
+  letter-spacing: 1.5;
 }
 
 :root {
+  /*
   --rotterdamBlue: #0072BB;   
   --rotterdamRed: #ED1B24;
   --rotterdamWhite: white;
@@ -20,7 +23,7 @@
   --rotterdamPink: #E790B3;
   --rotterdamNavy:#3D2C7A;
   --rotterdamRot: #DB2429;
-
+  */
 
   --muchaPaper: #F0E7D6;
   --muchaPaper2: #dfd3bf;
@@ -72,7 +75,8 @@ nav {
 .sidenav {  
   background-image: url(./images/gismonda-print.jpg);
   background-repeat: no-repeat;
-  background-size: cover;}
+  background-size: cover;
+}
 
 nav ul a {
   font-family: 'Voltaire', sans-serif;
@@ -100,7 +104,7 @@ li a {
 }
 
 ul > li:hover {
-  text-shadow: 0px 6px 0px var(--muchaLightGreen), 0px -6px 0px var(--muchaDarkGreen);
+  text-shadow: 0px 3px 0px var(--muchaLightGreen), 0px 6px 0px var(--muchaDarkGreen);
   transition: 250ms ease-in-out;
 }
 
@@ -124,11 +128,16 @@ p {
   background-size: cover;
 }
 
+.major-title {
+  box-shadow:  0px 0px 4px 1px var(--muchaDarkBrown);
+  border-radius: 10px;
+}
+
+
 
 body {
   background: var(--muchaPaper);
   font-family: sans-serif
-  
 }
 
 .mucha-container {
@@ -157,7 +166,16 @@ article {
   #index-banner {
     min-height: 100px;
   }
-  
+
+@media only screen and (max-width : 1100px) {
+  #logo-container {
+    width: 160px;
+    display: contents;
+    font-size: 28px;
+  }
+}
+
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -198,8 +216,15 @@ footer.page-footer {
 .mucha {
   background-color: var(--muchaNavBrown);
   box-shadow:  0px 0px 4px 1px var(--muchaDarkBrown);
+  font-family: 'Voltaire', sans-serif;
+
+
 }
 
+h5 {
+  color: var(--muchaDeepBlue);
+  -webkit-text-stroke: 1px var(--muchaBlack); /*text border*/
+}
 
 
 /*
@@ -208,8 +233,56 @@ font-family: 'Righteous', cursive;
 font-family: 'Voltaire', sans-serif;
 */
 
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.contactIcon {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  border-radius: 45px;
+  background-color: var(--muchaBlack);
+  transition: ease-in-out .1s;
+  margin: 25px;
+  box-shadow:  0px 0px 4px 1px var(--muchaDarkBrown);
+}
 
+.contactIcon a {
+  justify-content: center;  
+  height: 80px;
+  width: 80px;
+  border-radius: 45px;
+  color: transparent;
+}
 
+.contactIcon:hover {
+  transform: scale(1.05);
+}
 
+#contact1 {
+  background-image: url(./images/linkedin-icon.png);
+  background-repeat: no-repeat;
+  background-size: 75px;
+  background-position: center;
+}
 
+#contact2 {
+  background-image: url(./images/email-icon.png);
+  background-repeat: no-repeat;
+  background-size: 75px;
+  background-position: center;
+}
+
+#contact3 {
+  background-image: url(./images/github-icon.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+.footer-copyright {
+
+}
