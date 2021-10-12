@@ -9,11 +9,11 @@ This is my second take on a professional profile. In this one, I try to expand o
 Features
 * Utilizes Materialize's CSS Framework
 * Art Nouveau styling
-* Contact links and downloadable resume.
+* Contact links and downloadable resume
 
 **Demo of the webpage in action!**
 
-![Demo of the webpage in action]()
+![Demo of the webpage in action](./images/profile-demo.gif)
 
 
 
