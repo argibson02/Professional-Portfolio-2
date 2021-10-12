@@ -256,6 +256,11 @@ footer.page-footer {
   justify-content: center;
 }
 
+#contact-bio {
+  padding-right: 40px;
+  color: var(--muchaDarkBrown);
+}
+
 .contactIcon {
   display: inline-block;
   height: 110px;
@@ -268,6 +273,8 @@ footer.page-footer {
 }
 
 .contactIcon a {
+  display: flex;
+  align-items: center;
   justify-content: center;  
   height: 110px;
   width: 110px;
@@ -331,6 +338,17 @@ footer.page-footer {
   }
 }
 
+@media screen and (max-width: 630px) {
+  #contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  #contact-bio {
+    padding-right: 0px;
+  }
+}
+
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
@@ -345,10 +363,3 @@ footer.page-footer {
   }
 }
 
-@media screen and (max-width: 465px) {
-  #contact {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
-}
