@@ -1,5 +1,4 @@
 //3D
-/*
 $("#img-3d").on("mouseenter", function () { 
     $('#img-3d').attr('src', "./images/3d-active.gif");
 });
@@ -25,5 +24,3 @@ $("#img-garfield").on("mouseenter", function () {
 $("#img-garfield").on("mouseleave", function () { 
     $('#img-garfield').attr('src', "./images/garfield-still.png");
 });
-
-*/

@@ -6,6 +6,11 @@ This is my second take on a professional profile. In this one, I try to expand o
 [Click this link to see Professional Portfolio II!](https://argibson02.github.io/Professional-Portfolio-2/)
  <br />
 
+Features
+* Utilizes Materialize's CSS Framework
+* Art Nouveau styling
+* Contact links and downloadable resume.
+
 **Demo of the webpage in action!**
 
 ![Demo of the webpage in action]()
@@ -55,5 +60,6 @@ Any modern internet browser will do!
 
 - Thanks to Jerome, Manuel, Cheng, and Daniel for instructing the UCB Coding Bootcamp.
 - Thanks to Eric Meyer for the [CSS reset file](https://meyerweb.com/eric/tools/css/reset/).
+- Thanks to [Alphonse Mucha](https://en.wikipedia.org/wiki/Alphonse_Mucha) for some inspiration and some patterning.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
