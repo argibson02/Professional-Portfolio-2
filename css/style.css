@@ -125,21 +125,36 @@ li a:hover {
   color: var(--muchaMonaco);
 }
 
+ul:not(.browser-default) {
+  background-color: var(--muchaBlue);
+}
+
+ul:not(.browser-default) {
+  background-image: url(./images/gismonda-print.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 #description-container {
   width: 100%;
 }
 
-#description-section {
-  width: 100%;
+#description-row {
+  display: flex;
+  align-items: center;
+}
+
+
+#description {
+  display: flex;
 }
 
 .headshot {
   max-width: 300px;
-  max-height: 300px;
+  height: auto;
   border-radius: 20px;
 }
-
 
 p {
   line-height: 2rem;
@@ -206,14 +221,100 @@ article {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
+
+#index-banner {
+  min-height: 100px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
 
 
-  #index-banner {
-    min-height: 100px;
-  }
+
+.mucha {
+  background-color: var(--muchaNavBrown);
+  box-shadow:  0px 0px 4px 1px var(--muchaDarkBrown);
+  font-family: 'Voltaire', sans-serif;
+}
+
+footer.page-footer {
+  margin: 0;
+  color: var(--muchaDarkBrown);
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contactIcon {
+  display: inline-block;
+  height: 110px;
+  width: 110px;
+  border-radius: 55px;
+  background-color: var(--muchaBlue);
+  transition: ease-in-out .1s;
+  margin: 25px;
+  box-shadow:  0px 0px 4px 1px var(--muchaDeepBlue);
+}
+
+.contactIcon a {
+  justify-content: center;  
+  height: 110px;
+  width: 110px;
+  border-radius: 55px;
+  color: transparent;
+}
+
+.contactIcon:hover {
+  transform: scale(1.05);
+}
+
+
+#contact1 {
+  background-image: url(./images/linkedin-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+}
+
+#contact2 {
+  background-image: url(./images/email-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+}
+
+#contact3 {
+  background-image: url(./images/github-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+}
+
+#contact4 {
+  background-image: url(./images/resume-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+}
+
+
+#footertext {
+  font-family: Helvetica, sans-serif;
+  color: var(--muchaBlack);
+  font-size: 12px;
+  margin: 0px;
+}
 
 
 @media only screen and (max-width : 992px) {
@@ -223,6 +324,10 @@ article {
   }
   #index-banner .section {
     top: 10%;
+  }
+  #description-row {
+    align-items: center;
+    flex-direction: column-reverse;
   }
 }
 
@@ -240,76 +345,10 @@ article {
   }
 }
 
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-.mucha {
-  background-color: var(--muchaNavBrown);
-  box-shadow:  0px 0px 4px 1px var(--muchaDarkBrown);
-  font-family: 'Voltaire', sans-serif;
-}
-
-
-
-.contact-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.contactIcon {
-  display: inline-block;
-  height: 80px;
-  width: 80px;
-  border-radius: 45px;
-  background-color: var(--muchaBlack);
-  transition: ease-in-out .1s;
-  margin: 25px;
-  box-shadow:  0px 0px 4px 1px var(--muchaDarkBrown);
-}
-
-.contactIcon a {
-  justify-content: center;  
-  height: 80px;
-  width: 80px;
-  border-radius: 45px;
-  color: transparent;
-}
-
-.contactIcon:hover {
-  transform: scale(1.05);
-}
-
-#contact1 {
-  background-image: url(./images/linkedin-icon.png);
-  background-repeat: no-repeat;
-  background-size: 75px;
-  background-position: center;
-}
-
-#contact2 {
-  background-image: url(./images/email-icon.png);
-  background-repeat: no-repeat;
-  background-size: 75px;
-  background-position: center;
-}
-
-#contact3 {
-  background-image: url(./images/github-icon.png);
-  background-repeat: no-repeat;
-  background-size: 80px;
-  background-position: center;
-}
-
-.footer-copyright {
-
+@media screen and (max-width: 465px) {
+  #contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 }
