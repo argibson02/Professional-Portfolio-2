@@ -1,4 +1,4 @@
-//3D
+//3D - Materialize JS may be overriding this
 $("#img-3d").on("mouseenter", function () { 
     $('#img-3d').attr('src', "./images/3d-active.gif");
 });
