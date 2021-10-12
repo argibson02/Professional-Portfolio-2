@@ -7,10 +7,16 @@
  */
 
  * {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Voltaire', sans-serif;
   letter-spacing: 1.5;
 }
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 :root {
   /*
@@ -120,25 +126,61 @@ li a:hover {
 }
 
 
+#description-container {
+  width: 100%;
+}
+
+#description-section {
+  width: 100%;
+}
+
+.headshot {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 20px;
+}
+
+
 p {
   line-height: 2rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links a  {
+  box-shadow:  0px 0px 4px 1px var(--muchaDarkBrown);
+  border-radius: 10px;
+  background-color: var(--muchaNavBrown);
+  padding: 5px;
+  text-decoration: none;
+  color: var(--muchaBlack)
+}
+.links a:hover  {
+  transform: scale(1.05);
+  box-shadow:  2px 2px 4px 2px var(--muchaDarkBrown);
+  transition: ease-in-out .05s;
 }
 
 .sidenav-trigger {
   color: var(--muchaMonaco);
 }
 
-.cigar {
-  background-image: url(./images/job-cigarettes-border-v.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .major-title {
   box-shadow:  0px 0px 4px 1px var(--muchaDarkBrown);
   border-radius: 10px;
+  background-color: var(--muchaNavBrown);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
+h5 {
+  color: var(--muchaDeepBlue);
+  -webkit-text-stroke: 1px var(--muchaBlack); /*text border*/
+}
 
 
 body {
@@ -214,21 +256,9 @@ footer.page-footer {
   background-color: var(--muchaNavBrown);
   box-shadow:  0px 0px 4px 1px var(--muchaDarkBrown);
   font-family: 'Voltaire', sans-serif;
-
-
-}
-
-h5 {
-  color: var(--muchaDeepBlue);
-  -webkit-text-stroke: 1px var(--muchaBlack); /*text border*/
 }
 
 
-/*
-font-family: 'Bebas Neue', cursive;
-font-family: 'Righteous', cursive;
-font-family: 'Voltaire', sans-serif;
-*/
 
 .contact-box {
   display: flex;

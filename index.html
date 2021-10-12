@@ -23,14 +23,14 @@
       <a id="logo-container" href="#" class="brand-logo">ALEXANDER GIBSON</a>
       <ul class="right hide-on-med-and-down">
         <!-- <li><a href="">ABOUT</a></li> -->
-        <li><a href="">PROJECTS</a></li>
-        <li><a href="">CONTACT & RÉSUMÉ</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT & RÉSUMÉ</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
         <!-- <li><a href="">ABOUT</a></li> -->
-        <li><a href="">PROJECTS</a></li>
-        <li><a href="">CONTACT & RÉSUMÉ</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT & RÉSUMÉ</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -46,13 +46,15 @@
   </div>
 
 
-  <div class="container">
-    <div class="section" id="about">
+  <div class="container" id="description-container">
+    <div class="section" id="description-section">
 
       <!--   Description Section   -->
       <div class="row">
-        <div class="col s1 cigar"></div>
-        <div class="col s10 center">
+        <div class="col s3">
+          <img class="headshot" src="./images/Alex-Gibson-Headshot-Mucha-filter.jpg">
+        </div>
+        <div class="col s9">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4 class="major-title">ABOUT</h4>
           <article id="description">
@@ -71,39 +73,29 @@
               accessibility and internationalization testing, and advocating for the end-user experience.
           </article>
         </div>
-        <div class="col s1 cigar"></div>
       </div>
     </div>
   </div>
   </div>
 
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-
-      </div>
-    </div>
     <div class="parallax"><img src="./images/gismonda-print-h.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
-  <div class="row">
-    <div class="col s1 cigar"></div>
-    <div class="col s10 center">
+  <div class="row" id="projects">
+    <div class="col s12 center">
       <h3><i class="mdi-content-send brown-text"></i></h3>
       <br />
       <h4 class="major-title">MY PROJECTS</h4>
     </div>
-    <div class="col s1 cigar"></div>
   </div>
-  </div>
-  </div>
-  </div>
+
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Reimagining virtual museums</h5>
         </div>
       </div>
     </div>
@@ -111,7 +103,7 @@
   </div>
 
   <div class="container">
-    <div class="section" id="projects">
+    <div class="section">
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -122,8 +114,13 @@
             a piece of art.
             <br />
             <br />
-            Built with: Javascript, jQuery, three.js, HTML, CSS, Materialize, Rijksmuseum API, MET API, and QR Code Generator API.
+            Built with: Javascript, jQuery, three.js, HTML, CSS, Materialize, Rijksmuseum API, MET API, and QR Code
+            Generator API.
           </p>
+          <div class="col s12 links">
+            <a href="https://argibson02.github.io/3d-gallery-walk/" target="_blank">See the site</a>
+            <a href="https://github.com/argibson02/3d-gallery-walk" target="_blank">See the Repo</a>
+          </div>
         </div>
       </div>
     </div>
@@ -133,7 +130,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Weather at a glance</h5>
         </div>
       </div>
     </div>
@@ -144,8 +141,7 @@
   <div class="container">
     <div class="section">
       <div class="row">
-        <div class="col s1 cigar"></div>
-        <div class="col s10 center">
+        <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Weather Dashboard</h4>
           <p class="left-align light">This is a simple weather dashboard web app that utilizes OpenWeather API to show
@@ -156,8 +152,11 @@
             Built with: Javascript, jQuery, HTML, CSS, OpenWeather One Call API, OpenWeather Geolocation API, and
             Moment.js.
           </p>
+          <div class="col s12 links">
+            <a href="https://argibson02.github.io/Weather-Dashboard/" target="_blank">See the site</a>
+            <a href="https://github.com/argibson02/Weather-Dashboard" target="_blank">See the Repo</a>
+          </div>
         </div>
-        <div class="col s1 cigar"></div>
       </div>
 
     </div>
@@ -168,7 +167,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Think you’re smarter than a cat?</h5>
         </div>
       </div>
     </div>
@@ -179,18 +178,20 @@
   <div class="container">
     <div class="section">
       <div class="row">
-        <div class="col s1 cigar"></div>
-        <div class="col s10 center">
+        <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Garfield's Puzzle Castle</h4>
-          <p class="left-align light">- Test your wit and see if you can beat Garfield’s Puzzle Castle! This is a timed
+          <p class="left-align light">Test your wit and see if you can beat Garfield’s Puzzle Castle! This is a timed
             Garfield knowledge quiz complete with a scoreboard for tracking your best attempts.
             <br />
             <br />
             Built with: Javascript, jQuery, HTML, CSS, and Moment.js.
           </p>
+          <div class="col s12 links">
+            <a href="https://argibson02.github.io/Quiz-App/" target="_blank">See the site</a>
+            <a href="https://github.com/argibson02/Quiz-App" target="_blank">See the Repo</a>
+          </div>
         </div>
-        <div class="col s1 cigar"></div>
       </div>
 
     </div>
@@ -198,15 +199,8 @@
 
   <!-- footer break -->
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="./images/3d-still.png" alt="Unsplashed background img 3"></div>
+  <div id="index-banner" class="parallax-container">
+    <div class="parallax"><img src="./images/gismonda-print-h.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
   <footer class="page-footer mucha">
@@ -220,7 +214,7 @@
             appreciated.</p>
         </div>
 
-        <div class="col l6 s12 contact-box">
+        <div class="col l6 s12 contact-box" id="contact">
           <h5 class="">Connect With Me</h5>
           <div class="contactIcon" id="contact1">
             <a href="https://www.linkedin.com/in/alexander-gibson-1b0bb6105/" target="_blank">LinkedIn link</a>
