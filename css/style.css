@@ -68,6 +68,12 @@ header {
   -webkit-text-stroke: 1.5px var(--muchaBlack); /*text border*/
   background-color: var(--muchaNavBrown);
 }
+
+#logo-container {
+  color: var(--muchaMonaco);
+}
+
+
 nav ul a, nav .brand-logo {
   color: var(----muchaMonaco);
 }
@@ -190,6 +196,8 @@ p {
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
+  -webkit-text-stroke: 1px var(--muchaMonaco); /*text border*/
+  color: var(--muchaDarkBrown);
 }
 
 h5 {
