@@ -84,6 +84,12 @@ nav ul a {
   color: var(--muchaMonaco);
 }
 
+ul:not(.browser-default) {
+  background-image: url(./images/gismonda-print.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 li {
   border-radius: 10px;
 }
@@ -166,15 +172,6 @@ article {
   #index-banner {
     min-height: 100px;
   }
-
-@media only screen and (max-width : 1100px) {
-  #logo-container {
-    width: 160px;
-    display: contents;
-    font-size: 28px;
-  }
-}
-
 
 
 @media only screen and (max-width : 992px) {
