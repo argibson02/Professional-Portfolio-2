@@ -11,11 +11,6 @@ Features
 * Art Nouveau styling
 * Contact links and downloadable resume
 
-**Demo of the webpage in action!**
-
-![Demo of the webpage in action](./images/profile-demo.gif)
-
-
 
 ## Prerequisites
 Any modern internet browser will do!
