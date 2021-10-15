@@ -6,6 +6,11 @@ This is my second take on a professional profile. In this one, I try to expand o
 [Click this link to see Professional Portfolio II!](https://argibson02.github.io/Professional-Portfolio-2/)
  <br />
 
+**Demo of Professional Portfolio II in action!**
+
+![Demo of Professional Portfolio II in action](./images/profile-demo.gif)
+
+
 Features
 * Utilizes Materialize's CSS Framework
 * Art Nouveau styling
